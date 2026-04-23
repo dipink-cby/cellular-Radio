@@ -25,10 +25,10 @@ The **cellular-Radio Dataset** is a hybrid dataset tailored for 3D Radio Environ
 * **Grid resolution**: 1 m
 * **Maximum Depth**: 5 reflections / diffractions
 
-## 🖼️ Data Visualization
+## 🖼️ Measurement Data Visualization
 Data spatial distribution for PCI_21: (a) Spatial distribution of UAV data; (b) Spatial distribution of Ground data.
 <p align="center">
-  <img src="assets/scene_3d.png" width="800" alt="3D Scene Preview">
+  <img src="assets/PCI_21.png" width="800" >
 </p>
 
 ## 📁 Repository Structure
@@ -40,6 +40,8 @@ Data spatial distribution for PCI_21: (a) Spatial distribution of UAV data; (b) 
 ├── Sionna/
 │   ├── REM/               # Jupyter Notebook for data simulation
 │   └── YNU/
-│       ├── meshes/        # 3D Geometry Mesh include  (.ply)
-│       └── YNU_scene/     # Scene Description (.xml)          
+│       ├── meshes/        # 3D Geometry Mesh include (.ply)
+│       └── YNU_scene.xml     # Scene Description
+├── assets/
+│   └── PCI_21.png/               # Measurement Data Visualization for PCI_21
 └── README.md

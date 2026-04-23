@@ -25,6 +25,12 @@ The **cellular-Radio Dataset** is a hybrid dataset tailored for 3D Radio Environ
 * **Grid resolution**: 1 m
 * **Maximum Depth**: 5 reflections / diffractions
 
+## 🖼️ Data Visualization
+Data spatial distribution for PCI_21: (a) Spatial distribution of UAV data; (b) Spatial distribution of Ground data.
+<p align="center">
+  <img src="assets/scene_3d.png" width="800" alt="3D Scene Preview">
+</p>
+
 ## 📁 Repository Structure
 
 ```text

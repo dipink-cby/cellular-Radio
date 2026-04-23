@@ -1,0 +1,159 @@
+<scene version="2.1.0">
+
+<!-- Defaults, these can be set via the command line: -Darg=value -->
+
+
+<!-- Camera and Rendering Parameters -->
+
+	<integrator type="path" id="elm__0" name="elm__0">
+		<integer name="max_depth" value="12"/>
+	</integrator>
+
+<!-- Materials -->
+
+	<bsdf type="diffuse" id="mat-itu_very_dry_ground" name="mat-itu_very_dry_ground">
+		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-itu_concrete" name="mat-itu_concrete">
+		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-itu_metal" name="mat-itu_metal">
+		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-itu_glass" name="mat-itu_glass">
+		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
+	</bsdf>
+
+<!-- Emitters -->
+
+
+<!-- Shapes -->
+
+	<shape type="ply" id="mesh-dem" name="mesh-dem">
+		<string name="filename" value="meshes/dem.ply"/>
+		<ref id="mat-itu_very_dry_ground" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-经济学院" name="mesh-经济学院">
+		<string name="filename" value="meshes/经济学院.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-楸苑4栋" name="mesh-楸苑4栋">
+		<string name="filename" value="meshes/楸苑4栋.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-楸苑3栋" name="mesh-楸苑3栋">
+		<string name="filename" value="meshes/楸苑3栋.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-楸苑2栋" name="mesh-楸苑2栋">
+		<string name="filename" value="meshes/楸苑2栋.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-楸苑1栋" name="mesh-楸苑1栋">
+		<string name="filename" value="meshes/楸苑1栋.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-楠苑食堂" name="mesh-楠苑食堂">
+		<string name="filename" value="meshes/楠苑食堂.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-楠苑综合楼" name="mesh-楠苑综合楼">
+		<string name="filename" value="meshes/楠苑综合楼.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-楠苑5栋" name="mesh-楠苑5栋">
+		<string name="filename" value="meshes/楠苑5栋.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-楠苑4栋" name="mesh-楠苑4栋">
+		<string name="filename" value="meshes/楠苑4栋.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-楠苑3栋" name="mesh-楠苑3栋">
+		<string name="filename" value="meshes/楠苑3栋.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-楠苑2栋" name="mesh-楠苑2栋">
+		<string name="filename" value="meshes/楠苑2栋.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-楠苑1栋" name="mesh-楠苑1栋">
+		<string name="filename" value="meshes/楠苑1栋.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-格物楼02" name="mesh-格物楼02">
+		<string name="filename" value="meshes/格物楼02.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-格物楼01" name="mesh-格物楼01">
+		<string name="filename" value="meshes/格物楼01.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-建规学院" name="mesh-建规学院">
+		<string name="filename" value="meshes/建规学院.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-图书馆副馆02" name="mesh-图书馆副馆02">
+		<string name="filename" value="meshes/图书馆副馆02.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-图书馆副馆01" name="mesh-图书馆副馆01">
+		<string name="filename" value="meshes/图书馆副馆01.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-图书馆" name="mesh-图书馆">
+		<string name="filename" value="meshes/图书馆.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-力行楼02" name="mesh-力行楼02">
+		<string name="filename" value="meshes/力行楼02.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-力行楼01" name="mesh-力行楼01">
+		<string name="filename" value="meshes/力行楼01.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-信息学院" name="mesh-信息学院">
+		<string name="filename" value="meshes/信息学院.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-农学院" name="mesh-农学院">
+		<string name="filename" value="meshes/农学院.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-基站" name="mesh-基站">
+		<string name="filename" value="meshes/基站.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-图书馆顶" name="mesh-图书馆顶">
+		<string name="filename" value="meshes/图书馆顶.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-itu_glass" name="bsdf"/>
+	</shape>
+
+<!-- Volumes -->
+
+</scene>

@@ -9,7 +9,7 @@ The **cellular-Radio Dataset** is a hybrid dataset tailored for 3D Radio Environ
 ## 🛠️ Data Acquisition & Simulation Setup
 
 ### 1. Empirical Measurements
-* **Scenario**: Yunnan University (Chenggong Campus), representing a typical suburban propagation environment.
+* **Scenario**: Yunnan University's Chenggong Campus, representing a typical suburban propagation environment.
 * **Measurement Platform**: A DJI Air 3S utilized as the aerial platform for high-altitude spatial sampling.
 * **Receiver Equipment**: A commercial smartphone equipped with a Snapdragon X70 5G modem (Qualcomm Incorporated, San Diego, CA, USA) was deployed to continuously record RSRP variations via the Cellular Pro application (alibaba1126, Beijing, China).
 * **Center carrier frequency**: 3.45 GHz
@@ -26,7 +26,7 @@ The **cellular-Radio Dataset** is a hybrid dataset tailored for 3D Radio Environ
 * **Maximum Depth**: 5 reflections / diffractions
 
 ## 🖼️ Measurement Data Visualization
-Data spatial distribution for PCI_21: (a) Spatial distribution of UAV data; (b) Spatial distribution of Ground data.
+Spatial distribution for PCI_21 of: (a) UAV data; (b) Ground-level data.
 <p align="center">
   <img src="Assets/PCI_21.png" width="800" >
 </p>
